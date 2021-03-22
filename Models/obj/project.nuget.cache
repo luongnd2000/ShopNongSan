@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "s81ty72PsG5kAgQR/KbfJ6GyTUWJf3lrxy5W6ggyu2BAMntPWbHJp/KuG5UPpM0YddOJG/VvXNLwt3YFr7wiIw==",
+  "success": true,
+  "projectFilePath": "D:\\Learning\\UTC\\ASP.Net MVC\\hocweb2\\HocWeb2\\Models\\Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luong\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\luong\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\luong\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

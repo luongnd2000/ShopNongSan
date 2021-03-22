@@ -1,0 +1,57 @@
+﻿@model List<HocWeb2.Models.Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<main>
+    <div class="container-fluid">
+        <h1 class="mt-4">Dashboard</h1>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table mr-1"></i>
+                DataTable Example
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Created Date</th>
+                                <th>Order</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Created Date</th>
+                                <th>Order</th>
+                                <th>Status</th>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.ID</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.CreatedDate</td>
+                                    <td>@item.Order</td>
+                                    <td>@item.Status</td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    @section ClientScript
+    {
+    }
+</main>
